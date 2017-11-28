@@ -90,7 +90,8 @@ function hash_sha1($input) {
     }
     return sprintf('%08x%08x%08x%08x%08x', $h0, $h1, $h2, $h3, $h4);;
 }
-echo sha1('password'), PHP_EOL;
-echo hash_sha1('password'), PHP_EOL;
-echo hash_sha1(file_get_contents(__FILE__)), PHP_EOL;
-echo sha1_file(__FILE__), PHP_EOL;
+echo sha1('password1') . "<br><br>";
+echo hash_sha1('password1') . "<br><br><br><br><br>";
+
+echo hash_sha1(file_get_contents(__FILE__)) . "<br><br>";
+echo sha1_file(__FILE__) . "<br>";
