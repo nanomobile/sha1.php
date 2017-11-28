@@ -94,4 +94,6 @@ echo sha1('password1') . "<br><br>";
 echo hash_sha1('password1') . "<br><br><br><br><br>";
 
 echo hash_sha1(file_get_contents(__FILE__)) . "<br><br>";
-echo sha1_file(__FILE__) . "<br>";
+echo sha1_file(__FILE__) . "<br><br>";
+
+// echo file_get_contents(__FILE__) . "<br><br><br>";
